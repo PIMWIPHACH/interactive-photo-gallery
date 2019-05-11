@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Interactive Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="js/lightbox/lightbox.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="gallery">
+          <a
+            href="photos/01.jpg"
+            data-lightbox="Gallery"
+            data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."
+            data-alt="Hay Bales"
+            ><img src="photos/thumbnails/01.jpg" alt="Hay Bales"
+          /></a>
+          <a
+            href="photos/02.jpg"
+            data-lightbox="Gallery"
+            data-title="The lake was so calm today. We had a great view of the snow on the mountains from here."
+            data-alt="Lake"
+            ><img src="photos/thumbnails/02.jpg" alt="Lake"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
