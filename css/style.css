@@ -25,22 +25,20 @@ body {
   line-height: 1.5rem;
 }
 
-.gallery a img {
+.list a img {
   margin: 2rem 2rem;
 }
 
-input[type="search"] {
+input[type="text"] {
   /* outline: 0; no border / transparent  */
   width: 50%; /*make search box length equal to 50% */
   padding: 0.8rem 1rem;
   border: 1.5px solid rgb(188, 189, 204);
   border-radius: 30px;
   font-size: 16px;
-  transition: background 0.25s, outline 0.5s, border 0.4s;
-  transition-timing-function: ease-out;
 }
 
-input[type="search"]:focus {
+input[type="text"]:focus {
   outline: none;
   border: 1.5px solid lightpink;
   background: white;
